@@ -18,6 +18,11 @@ class TestController extends AbstractController {
         'dateMaintenant' => $date
         ]);
     }
+    
+    public function base(){
+        return $this->render('base.html.twig', [
+        ]);
+    }
 }
 
 ?>

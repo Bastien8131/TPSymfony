@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <title>{% block title %}Premier TP symfony{% endblock %}</title>
+
+    <style> body{ display: flex; flex-direction: column } </style>
+
+    {% block entete %}
+        Affichage
+    {% endblock %}
+
+    {% block contenu %}
+        <span>Bonjour à tous {# c'est fanta et bob #}</span>
+    {% endblock %}
+    
+{% endblock %}

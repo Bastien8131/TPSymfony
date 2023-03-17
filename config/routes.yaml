@@ -12,3 +12,8 @@ lenombrealeatoire :
 maintenant :
     path : /date/maintenant
     controller : App\Controller\TestController::dateMaintenant
+
+
+base :
+    path : /base
+    controller : App\Controller\TestController::base
